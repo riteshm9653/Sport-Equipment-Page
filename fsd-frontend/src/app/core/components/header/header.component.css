@@ -1,0 +1,83 @@
+/* Header Styles */
+.header {
+  background: #ffffff; /* White background */
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Container */
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Logo Section */
+.logo a {
+  color: #2e7d32; /* Green color */
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Navigation Links Section */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Event Manager Heading */
+.nav-links h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+/* Logout Button */
+.nav-link {
+  background: #dc3545; /* Red background */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background: #c82333; /* Darker red on hover */
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles for tablets and below */
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .nav-links {
+    gap: 0.5rem;
+  }
+}
+
+/* Responsive Styles for phones */
+@media (max-width: 576px) {
+  .logo a {
+    font-size: 1.4rem;
+  }
+
+  .nav-links h2 {
+    font-size: 1rem;
+  }
+
+  .nav-link {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+}
