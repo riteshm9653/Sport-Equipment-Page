@@ -37,6 +37,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/equipment/",
               "budgets": [
                 {
                   "type": "initial",
@@ -49,7 +50,11 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "optimization": true,
+              "sourceMap": false,
+              "extractLicenses": true,
+              "namedChunks": false
             },
             "development": {
               "optimization": false,

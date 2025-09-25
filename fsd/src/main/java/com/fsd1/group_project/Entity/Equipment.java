@@ -17,7 +17,6 @@ public class Equipment {
     private Long id;
 
     private String name;
-
     private String eventName;
     private String description;
     private String category;
